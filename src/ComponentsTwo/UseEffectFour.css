@@ -1,0 +1,17 @@
+.cocktail-data{
+    display: grid;
+   grid-template-columns: 1fr;
+   gap: 1rem;
+}
+li{
+    list-style: none;
+}
+.cocktail-data li img{
+    width: 100%;
+}
+@media screen and (min-width: 769px) {
+    .cocktail-data{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+}
